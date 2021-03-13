@@ -1,0 +1,2 @@
+export const FETCH_WEATHER = 'FETCH_WEATHER';
+export const SELECT_CITY = 'SELECT_CITY';
