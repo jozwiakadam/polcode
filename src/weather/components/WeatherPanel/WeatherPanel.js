@@ -15,12 +15,12 @@ const WeatherPanel = () => {
   }, [])
 
   return (
-    <div className="app">
-      <Selector
-        options={citiesOptions}
-      />
-      <WeatherWidget data={weather} city={city} />
-    </div>
+		<>
+			<Selector
+				options={citiesOptions}
+			/>
+			<WeatherWidget data={weather} city={city} />
+		</>
   );
 };
 
