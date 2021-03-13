@@ -1,0 +1,55 @@
+@import 'styles/common/_variables.scss';
+
+.selector {
+  width: 250px;
+  height: 36px;
+  border: 1px solid $dodger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 6px;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: $white;
+}
+
+.selector:hover {
+  cursor: pointer;
+}
+
+.selector-options {
+  background-color: $white;
+  position: absolute;
+  width: 250px;
+  border: 1px solid $dodger;
+  border-radius: 20px;
+  left: 0px;
+  top: calc(100% + 5px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.selector-option {
+  margin-left: 8px;
+}
+
+.selector-option-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-left: 12px;
+}
+
+.selector-option-wrapper:hover {
+  background-color: $alabaster;
+}
+
+.selector-selected {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
