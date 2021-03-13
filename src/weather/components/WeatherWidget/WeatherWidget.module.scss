@@ -1,0 +1,13 @@
+@import 'styles/common/_variables.scss';
+
+.weather-widget {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 40px;
+	border: 1px solid $dodger;
+	border-radius: 20px;
+	margin-top: 20px;
+}
